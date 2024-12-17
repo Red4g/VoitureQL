@@ -1,0 +1,4 @@
+type Query {
+    getVoitureByModel(model: String) : [Voiture]
+    getVoitureByModelAndPrice(model :String, price: Float): [Voiture]
+}

@@ -1,0 +1,4 @@
+type Mutation{
+    saveVoiture( voiture : VoitureRequest): Voiture
+    deleteVoiture( id: ID ): Boolean
+}

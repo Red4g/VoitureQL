@@ -1,0 +1,6 @@
+input VoitureRequest{
+    model : String
+    color : String
+    matricul : String
+    price : Float
+}
